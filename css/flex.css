@@ -1,7 +1,7 @@
 .caja{
     background-color: cornflowerblue;
-    width: 10rem;
-    height: 10rem;
+    /* width: 10rem;
+    height: 10rem; */
     border: 2px solid rgb(18, 42, 88);
     text-align: center;
     font-weight: 700;
@@ -60,4 +60,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flexbasis{
+    display: flex;
+}
+
+.flexbasis .caja{
+    flex-basis: 33.3%;
+    /* flex-basis: 200px; */
 }
