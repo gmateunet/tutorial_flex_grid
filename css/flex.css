@@ -53,3 +53,10 @@
     align-items: center;
     
 }
+
+.resumen-ja{
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
