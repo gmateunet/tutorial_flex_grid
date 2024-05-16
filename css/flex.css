@@ -21,3 +21,18 @@
     display: flex;
     flex-direction: column-reverse;
 }
+
+.row-jc{
+    display: flex;
+    flex-direction: row;
+    /*alinea horizontalmente*/
+    justify-content: center;
+
+}
+
+.col-jc{
+    display: flex;
+    height: 80rem;
+    flex-direction: column;
+    justify-content: space-around;
+}
