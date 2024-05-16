@@ -55,6 +55,7 @@
 }
 
 .resumen-ja{
+    /*https://flexboxfroggy.com/#es*/
     height: 60rem;
     display: flex;
     justify-content: center;
