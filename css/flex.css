@@ -1,0 +1,23 @@
+.caja{
+    background-color: cornflowerblue;
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid rgb(18, 42, 88);
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.col{
+    display: flex;
+    flex-direction: column-reverse;
+}
