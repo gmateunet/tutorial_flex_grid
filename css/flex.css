@@ -73,11 +73,12 @@
 
 .gap-calc{
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-between;
+    /* gap: 1rem; */
 }
 
 .gap-calc .caja{
     padding: 0;
-    flex-basis: calc( 80px * 3 );
+    flex-basis: calc( 33.3% - 1rem); /*sin gap*/
+    /* flex-basis: calc(80px * 3); con gap */
 }
