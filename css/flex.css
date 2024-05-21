@@ -82,3 +82,17 @@
     flex-basis: calc( 33.3% - 1rem); /*sin gap*/
     /* flex-basis: calc(80px * 3); con gap */
 }
+
+.diversos-anchos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.diversos-anchos .caja:nth-child(1){
+    flex-basis: calc(50% - 1rem);
+}
+
+.diversos-anchos .caja:nth-child(2),
+.diversos-anchos .caja:nth-child(3){
+    flex-basis: calc(25% - 1rem);
+}
