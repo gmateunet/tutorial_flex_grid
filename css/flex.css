@@ -70,3 +70,14 @@
     flex-basis: 33.3%;
     /* flex-basis: 200px; */
 }
+
+.gap-calc{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.gap-calc .caja{
+    padding: 0;
+    flex-basis: calc( 80px * 3 );
+}
