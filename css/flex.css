@@ -96,3 +96,15 @@
 .diversos-anchos .caja:nth-child(3){
     flex-basis: calc(25% - 1rem);
 }
+
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+}
+
+.flex-wrap .caja{
+    flex-basis: 25%;
+}
