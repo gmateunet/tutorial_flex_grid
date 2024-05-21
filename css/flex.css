@@ -108,3 +108,29 @@
 .flex-wrap .caja{
     flex-basis: 25%;
 }
+
+.flex-grow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-grow .caja{
+    flex-grow: 1; /*cantidad de pixeles que va a crecer cada elemento*/
+    /*flex-grow: 0 es el valor por default*/
+}
+
+.flex-grow-variable{
+    display: flex;
+}
+
+.flex-grow-variable .caja:nth-child(1){
+    flex-grow: 3;
+}
+
+.flex-grow-variable .caja:nth-child(2){
+    flex-grow: 1;
+}
+
+.flex-grow-variable .caja:nth-child(3){
+    flex-grow: 1;
+}
