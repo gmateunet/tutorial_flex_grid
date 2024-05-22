@@ -42,7 +42,7 @@
 .grid-template-rows{
     display: grid;
     grid-template-rows: repeat(3,300px);
-    grid-template-columns: repeat(3,300px);
+    grid-template-columns: repeat(2,300px);
 
 }
 
