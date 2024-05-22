@@ -134,3 +134,16 @@
 .flex-grow-variable .caja:nth-child(3){
     flex-grow: 1;
 }
+
+.flex-shrink{
+    display: flex;
+}
+
+.flex-shrink .caja{
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.flex-shrink .caja:nth-child(3){
+    flex-shrink: 2; /*ser hará pequeño más rápido*/
+}
