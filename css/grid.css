@@ -15,7 +15,7 @@
 
 .grid-template-columns{
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: repeat(3,300px);
 }
 
 .grid-template-columns .caja:nth-child(2){
@@ -39,3 +39,17 @@
     grid-column: 2 / 3;
 }
 
+.grid-template-rows{
+    display: grid;
+    grid-template-rows: repeat(3,300px);
+    grid-template-columns: repeat(3,300px);
+
+}
+
+.grid-template-rows .caja:nth-child(1){
+    grid-row: 3 / 4;
+}
+
+.grid-template-rows .caja:nth-child(2){
+    grid-row: 2 / 3;
+}
