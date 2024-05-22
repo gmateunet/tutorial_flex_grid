@@ -101,3 +101,12 @@
 .grid-autoflow .caja:nth-child(2){
     grid-column: 1 / 2;
 }
+
+.grid-fr-repeat{
+    display: grid;
+    height: 500px;
+    /* grid-template-columns: repeat(3,33.3%); porcentages malo de mantener*/
+
+    /* grid-template-columns: 2fr  repeat(2,1fr); */
+    grid: 2fr repeat(2,1fr)/repeat(3,1fr);
+}
