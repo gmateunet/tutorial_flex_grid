@@ -147,3 +147,24 @@
 .flex-shrink .caja:nth-child(3){
     flex-shrink: 2; /*ser hará pequeño más rápido*/
 }
+
+.flex-shorthand{
+    display: flex;
+    /*justify-content: space-between;*/
+    column-gap: 1rem;
+}
+
+.flex-shorthand .caja{
+    /*
+    flex-grow: 1;
+    flex-shrink: 3;
+    flex-basis: 33.3%;
+    */
+
+    flex: 1 2 33.3%;
+    /*para 3 columnas con space-between*/
+    flex: 0 0 calc(33.3% - 1rem);
+
+    /*para 3 columna con gap*/
+    flex: 0 0 33.3%;
+}
