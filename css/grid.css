@@ -119,3 +119,39 @@
     gap: 2rem 1rem;
     grid: repeat(2,30rem) /repeat(3,1fr);
 }
+
+.grid-areas{
+    display: grid;
+    height: 120rem;
+    grid-template-areas: "header header header"
+                         "nav nav nav"
+                         "contenido contenido sidebar"
+                         "footer footer footer"
+    ;
+
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 25rem 10rem 60rem 25rem;
+    grid-template-rows: 2.5fr 1fr 6fr 2.5fr;
+
+    gap: 4rem;
+}
+
+.grid-areas .caja:nth-child(1){
+    grid-area: header;
+}
+
+.grid-areas .caja:nth-child(2){
+    grid-area: nav;
+}
+
+.grid-areas .caja:nth-child(3){
+    grid-area: contenido;
+}
+
+.grid-areas .caja:nth-child(4){
+    grid-area: sidebar;
+}
+
+.grid-areas .caja:nth-child(5){
+    grid-area: footer;
+}
