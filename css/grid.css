@@ -164,8 +164,6 @@
                    "contenido contenido sidebar" 6fr
                    "footer footer footer" 2.5fr / 1fr 1fr 1fr 
     ;
-
-
     gap: 4rem;
 }
 
@@ -187,4 +185,12 @@
 
 .grid-template .caja:nth-child(5){
     grid-area: footer;
+}
+
+.grid-alineacion{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    height: 300px;
+    /* align-items: center; */
+    place-content: flex-start ;
 }
