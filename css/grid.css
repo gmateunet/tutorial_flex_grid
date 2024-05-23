@@ -155,3 +155,36 @@
 .grid-areas .caja:nth-child(5){
     grid-area: footer;
 }
+
+.grid-template{
+    display: grid;
+    height: 120rem;
+    grid-template: "header header header" 2.5fr
+                   "nav nav nav" 1fr
+                   "contenido contenido sidebar" 6fr
+                   "footer footer footer" 2.5fr / 1fr 1fr 1fr 
+    ;
+
+
+    gap: 4rem;
+}
+
+.grid-template .caja:nth-child(1){
+    grid-area: header;
+}
+
+.grid-template .caja:nth-child(2){
+    grid-area: nav;
+}
+
+.grid-template .caja:nth-child(3){
+    grid-area: contenido;
+}
+
+.grid-template .caja:nth-child(4){
+    grid-area: sidebar;
+}
+
+.grid-template .caja:nth-child(5){
+    grid-area: footer;
+}
